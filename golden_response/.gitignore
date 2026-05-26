@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
+logs/
 
 data/raw/*
 data/processed/*
@@ -7,6 +8,8 @@ models/*
 reports/*
 
 !data/raw/.gitkeep
+!data/raw/True.csv
+!data/raw/Fake.csv
 !data/processed/.gitkeep
 !models/.gitkeep
 !reports/.gitkeep
